@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>C++ 学习笔记(一):命名空间、输入输出与缺省参数</title>
+    <link href="/2026/09/22/cpp-note-1/"/>
+    <url>/2026/09/22/cpp-note-1/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>学习日期:2026-09-22<br>环境:Windows 11 + Visual Studio 2022<br>标签:C++、入门、基础语法</p></blockquote><!-- 写作提示:先填小标题下的要点,再展开成段落;代码直接从 main.cpp 里摘,确保能跑通 --><hr><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><!-- TODO:写两三句——为什么开始学 C++、之前的基础(C 语言)、今天学了什么 --><hr><h2 id="一、命名空间-namespace"><a href="#一、命名空间-namespace" class="headerlink" title="一、命名空间 namespace"></a>一、命名空间 namespace</h2><h3 id="1-为什么需要命名空间"><a href="#1-为什么需要命名空间" class="headerlink" title="1. 为什么需要命名空间?"></a>1. 为什么需要命名空间?</h3><!-- TODO:用自己的话讲 + 放上 rand 冲突报错的例子 --><h3 id="2-namespace-的定义与使用"><a href="#2-namespace-的定义与使用" class="headerlink" title="2. namespace 的定义与使用"></a>2. namespace 的定义与使用</h3><!-- 要点提示:命名空间里可以放变量/函数/类型;用 命名空间::成员 访问 --><h3 id="3-作用域查找规则与-限定符"><a href="#3-作用域查找规则与-限定符" class="headerlink" title="3. 作用域查找规则与 :: 限定符"></a>3. 作用域查找规则与 <code>::</code> 限定符</h3><!-- 要点提示:局部优先于全局;::rand 表示全局作用域 --><h3 id="4-命名空间嵌套-多文件合并"><a href="#4-命名空间嵌套-多文件合并" class="headerlink" title="4. 命名空间嵌套 &amp; 多文件合并"></a>4. 命名空间嵌套 &amp; 多文件合并</h3><!-- 要点提示:嵌套写法 bit::bit1::Node;多文件同名 namespace 会合并,但同一空间内不能重名 --><hr><h2 id="二、C-的输入输出"><a href="#二、C-的输入输出" class="headerlink" title="二、C++ 的输入输出"></a>二、C++ 的输入输出</h2><!-- TODO:对比 printf/scanf,写 cout/cin 自动识别类型的好处 --><h3 id="关于-using-namespace-std"><a href="#关于-using-namespace-std" class="headerlink" title="关于 using namespace std"></a>关于 using namespace std</h3><!-- 要点提示:全部展开方便但有冲突风险;项目推荐 using std::cout 这种折中写法 --><hr><h2 id="三、缺省参数"><a href="#三、缺省参数" class="headerlink" title="三、缺省参数"></a>三、缺省参数</h2><!-- TODO:基本用法(Func(int a = 0)) --><h3 id="全缺省与半缺省"><a href="#全缺省与半缺省" class="headerlink" title="全缺省与半缺省"></a>全缺省与半缺省</h3><!-- 要点提示:缺省参数必须从右往左连续给出;检查一下自己 main.cpp 里 Func2 的注释和定义是否对得上 --><hr><h2 id="四、踩坑记录"><a href="#四、踩坑记录" class="headerlink" title="四、踩坑记录"></a>四、踩坑记录</h2><ul><li><input disabled="" type="checkbox"> <!-- TODO:今天遇到的第一个报错/疑问,以及怎么解决的 --></li><li><input disabled="" type="checkbox"> <!-- TODO:第二个…… --></li></ul><hr><h2 id="五、总结与下一步"><a href="#五、总结与下一步" class="headerlink" title="五、总结与下一步"></a>五、总结与下一步</h2><!-- TODO:一张小表格总结今天的知识点;写下一步计划(函数重载、引用……) --><hr><p><em>如果文章中有不对的地方,欢迎在评论区指出,感谢阅读!</em></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>C++</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>C++</tag>
+      
+      <tag>入门</tag>
+      
+      <tag>基础语法</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
