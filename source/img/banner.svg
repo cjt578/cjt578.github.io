@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="600" viewBox="0 0 1920 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="50%" stop-color="#1b2a4a"/>
+      <stop offset="100%" stop-color="#0d1b2a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="600" fill="url(#bg)"/>
+  <rect width="1920" height="600" fill="url(#glow)"/>
+
+  <g font-family="Consolas, Menlo, monospace" fill="#3b82f6">
+    <text x="180" y="160" font-size="90" opacity="0.14">&lt;/&gt;</text>
+    <text x="1500" y="180" font-size="110" opacity="0.12">{ }</text>
+    <text x="720" y="120" font-size="70" opacity="0.15">#include</text>
+    <text x="1200" y="420" font-size="80" opacity="0.12">cout</text>
+    <text x="300" y="480" font-size="60" opacity="0.15">int main()</text>
+    <text x="1600" y="500" font-size="60" opacity="0.12">;</text>
+    <text x="900" y="520" font-size="50" opacity="0.15">return 0;</text>
+    <text x="80" y="320" font-size="60" opacity="0.10">namespace</text>
+    <text x="1350" y="300" font-size="50" opacity="0.10">&lt;iostream&gt;</text>
+  </g>
+
+  <g font-family="Consolas, Menlo, monospace" fill="#60a5fa" opacity="0.12">
+    <text x="500" y="60" font-size="28">01001000 01101001</text>
+    <text x="1050" y="560" font-size="28">01100011 01110000</text>
+    <text x="250" y="550" font-size="24">1010 1100 0110</text>
+  </g>
+
+  <g stroke="#3b82f6" stroke-width="1.5" opacity="0.15" fill="none">
+    <path d="M0 500 H400 L500 400 H900"/>
+    <path d="M1920 200 H1500 L1400 280 H1100"/>
+    <circle cx="400" cy="500" r="4" fill="#3b82f6"/>
+    <circle cx="900" cy="400" r="4" fill="#3b82f6"/>
+    <circle cx="1500" cy="200" r="4" fill="#3b82f6"/>
+  </g>
+</svg>
